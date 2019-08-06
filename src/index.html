@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Blinker:400,800&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <title>Snake</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__content-wrap">
+                <div class="header__content">
+                    <div class="header__text">
+                        <h1 class="header__title">
+                            Snake game
+                        </h1>
+
+                        <!-- /.header__title -->
+                        <h2 class="header__sub-title">Play game right now! Your score: <span class="score">45</span>
+                        </h2>
+                        <!-- /.header__sub-title -->
+                    </div>
+                    <!-- /.header__text -->
+                    <div class="gamepad header__gamepad">
+                        <div class="canvas-wrap">
+                            <canvas id="snake"></canvas>
+                            <div class="popup">
+                                <div class="popup__content">
+                                    <h3 class="popup__title">Game over</h3>
+                                    <!-- /.popup__title -->
+                                    <button class="popup__restart" id="restart"><i class="far fa-play-circle"></i></button>
+                                    <!-- /.popup__restart -->
+                                </div>
+                                <!-- /.popup__content -->
+                            </div>
+                            <!-- /.popup -->
+                        </div>
+                        
+                        <div class="button-block">
+                                <div class="button-wrap">
+                                    <button class="button" id="top"></button>
+                                </div>
+                        
+                                <div class="button-wrap">
+                                    <button class="button" id="left"></button>
+                                </div>
+                        
+                                <div class="button-wrap">
+                                    <button class="button" id="right"></button>
+                                </div>
+                        
+                                <div class="button-wrap">
+                                    <button class="button" id="bottom"></button>
+                                </div>
+                        
+                        </div>
+                        <!-- /.button-block -->
+                    </div>
+                </div>
+                <!-- /.header__content -->
+            </div>
+            <!-- /.container -->
+    </header>
+    <!-- /.header -->
+</body>
+
+</html>

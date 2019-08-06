@@ -1,0 +1,55 @@
+.gamepad {
+  text-align: center;
+  max-width: 320px;
+  margin: auto;
+}
+
+.button {
+  width: 50px;
+  height: 50px;
+  border: none;
+  background: #cccc00;
+  border-radius: 100px;
+  margin: auto;
+}
+
+.button-wrap {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.button-wrap:first-child {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+
+.button-wrap:last-child {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:active {
+  background: tomato;
+}
+
+.button-block {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+canvas {
+  border: 1px solid;
+}
+
+.canvas-wrap {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
